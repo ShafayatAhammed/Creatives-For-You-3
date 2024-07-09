@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/438111064d.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Creatives For You</title>
+  </head>
+  <body class="font-plus-jakarta-sans">
+    <!--Navbar And Hero Start-->
+
+    <section class="relative">
+      <nav
+        class="flex justify-between items-center gap-10 px-10 py-3 border-b relative border-slate-300 bg-white"
+      >
+        <a href="#">
+          <img src="./Images/logo.png" alt="Logo" />
+        </a>
+        <ul class="lmd:flex gap-10 items-center hidden">
+          <li class="text-dark-green-color">
+            <a href="#" class="hover:text-pmr-color transition-colors">Home</a>
+          </li>
+          <li class="text-pmr-color"><a href="#">About Us</a></li>
+          <li class="text-dark-green-color">
+            <a href="#" class="hover:text-pmr-color transition-colors"
+              >Upskill</a
+            >
+          </li>
+          <li class="text-dark-green-color">
+            <a href="#" class="hover:text-pmr-color transition-colors"
+              >Contact us</a
+            >
+          </li>
+        </ul>
+        <button
+          type="button"
+          class="bg-pmr-color hidden lmd:block text-white px-3 py-2 rounded-md hover:bg-pmr-hover-color transition-colors"
+        >
+          Register Interest
+        </button>
+        <div class="block lmd:hidden">
+          <i
+            class="fa-solid fa-bars text-4xl cursor-pointer"
+            id="smNavToggBtn"
+          ></i>
+        </div>
+        <div
+          class="hidden absolute right-10 bottom-[-13rem] flex flex-col gap-3 items-center p-4 rounded-lg bg-white dark:bg-dark-color border border-slate-300"
+          id="smNav"
+        >
+          <ul class="text-dark-green-color flex flex-col items-center gap-1">
+            <li>
+              <a
+                href="#"
+                class="hover:text-pmr-color transition-colors dark:hover:text-pmr-color"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="hover:text-pmr-color transition-colors dark:hover:text-pmr-color"
+                >About Us</a
+              >
+            </li>
+            <li><a href="#" class="text-pmr-color">Upskill</a></li>
+            <li>
+              <a
+                href="#"
+                class="hover:text-pmr-color transition-colors dark:hover:text-pmr-color"
+                >Contact us</a
+              >
+            </li>
+          </ul>
+          <button
+            type="button"
+            class="bg-pmr-color hover:bg-pmr-hover-color text-lg text-white px-4 py-2 rounded-md transition-colors"
+          >
+            Register Interest
+          </button>
+        </div>
+      </nav>
+
+      <main
+        class="w-full bg-[url('./Images/edwin-andrade-4V1dC_eoCwg-unsplash-1.png')] bg-no-repeat px-14"
+      >
+        <div
+          class="text-center flex flex-col gap-3 xs:gap-4 items-center pt-32 pb-24 xs:pb-36 sm:pb-44 lmd:pb-56 lg:pb-60"
+        >
+          <h3
+            class="font-bold text-[10px] xs:text-xs md:text-sm lg:text-lg text-white"
+          >
+            Discover <span class="text-pmr-color">-</span> Interact
+            <span class="text-pmr-color">-</span> Engage
+          </h3>
+          <h1
+            class="text-[20px] xs:text-[30px] md:text-[40px] lg:text-[56px] text-[#FAFAFA] font-bold leading-[30px] xs:leading-[40px] md:leading-[50px] lg:leading-[68px]"
+          >
+            Connecting <span class="text-pmr-color underline">talent</span> to
+            <br />
+            opportunity through
+            <span class="text-pmr-color underline">skills</span>
+          </h1>
+          <p class="text-xs xs:text-sm md:text-base lg:text-xl text-[#FAFAFA]">
+            We forster a skill-focussed environment enabling students to
+            navigate their career with <br />
+            their self-paced learning journey and businesses to gain
+            market-ready talent.
+          </p>
+          <button
+            type="button"
+            class="text-xs xs:text-sm md:text-base lg:text-lg text-pmr-color bg-[#FAFAFA] py-2 px-8 rounded-full font-bold"
+          >
+            Ask questions
+          </button>
+        </div>
+      </main>
+      <div class="w-3 h-full bg-red-500 z-48 absolute top-0 left-0"></div>
+      <img src="./Images/Wave.svg" alt="wave" class="z-50 absolute bottom-0" />
+    </section>
+
+    <!--Navbar And Hero End-->
+
+    <!--Second Section Start-->
+
+    <section
+      class="px-10 sm:px-28 flex flex-col llg:flex-row gap-7 llg:gap-24 items-center"
+    >
+      <h1
+        class="text-3xl sm:text-[40px] font-bold text-dark-blue-color text-center llg:text-start leading-[3rem]"
+      >
+        At <span class="text-pmr-color underline">C4U</span>,<br
+          class="hidden llg:block"
+        />We Empower:
+      </h1>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lmd:grid-cols-3 gap-8">
+        <div
+          class="bg-dark-blue-color px-4 py-10 rounded-md flex flex-col gap-3"
+        >
+          <div
+            class="bg-white w-10 h-10 rounded-[50%] flex justify-center items-center"
+          >
+            <img src="./Images/Group.png" alt="batch" />
+          </div>
+          <h4 class="text-white text-lg font-bold">Students</h4>
+          <p class="text-sm text-[#DDDDDD]">
+            We help students find their way in a fast-evolving world by creating
+            a personalised learning journey guaranteed to help stand out in a
+            crowded job market.
+          </p>
+        </div>
+        <div
+          class="bg-dark-blue-color px-4 py-10 rounded-md flex flex-col gap-3"
+        >
+          <div
+            class="bg-white w-10 h-10 rounded-[50%] flex justify-center items-center"
+          >
+            <img src="./Images/Group 1702.png" alt="batch" />
+          </div>
+          <h4 class="text-white text-lg font-bold">Universities</h4>
+          <p class="text-sm text-[#DDDDDD]">
+            We help your emerging talent to unlock their full potential by
+            combining education and work to create future-ready employees
+          </p>
+        </div>
+        <div
+          class="bg-dark-blue-color px-4 py-10 rounded-md flex flex-col gap-3 sm:col-span-2 lmd:col-span-1"
+        >
+          <div
+            class="bg-white w-10 h-10 rounded-[50%] flex justify-center items-center"
+          >
+            <img src="./Images/Group 1686.png" alt="batch" />
+          </div>
+          <h4 class="text-white text-lg font-bold">Businesses</h4>
+          <p class="text-sm text-[#DDDDDD]">
+            We enable businesses to tap into the diverse pool of emerging talent
+            cultivated by universities. To co-create the future workforce and
+            revitalise the business world.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--Second Section End-->
+
+    <!--Third Section Start-->
+
+    <section
+      class="mx-10 sm:mx-28 mt-32 gap-10 md:gap-0 grid grid-cols-1 md:grid-cols-2 place-items-center relative"
+    >
+      <div
+        class="w-[1px] h-full bg-slate-300 absolute top-0 left-[-1rem] md:left-[50%]"
+      ></div>
+      <div
+        class="w-5 h-5 bg-step-green-color rounded-[50%] absolute top-0 hidden md:block"
+      ></div>
+      <div
+        class="w-5 h-5 bg-step-green-color rounded-[50%] absolute top-0 block md:hidden left-[-25px]"
+      ></div>
+      <div class="md:pr-10 order-2 md:order-1">
+        <p class="text-sm text-light-pmr-color">About us</p>
+        <h3 class="text-[36px] font-semibold text-dark-blue-color mt-2 sm:mt-3">
+          Our Mission
+        </h3>
+        <p class="text-lg mt-5 sm:mt-9">
+          To create a personalised pathway for continuous learning and
+          transferrable skills development.
+        </p>
+        <button
+          type="button"
+          class="font-bold text-pmr-color border border-pmr-color px-5 py-2 hover:bg-pmr-color transition-colors hover:text-white rounded-full mt-10 sm:mt-20"
+        >
+          Find out more
+        </button>
+      </div>
+      <img
+        src="./Images/Group 238902.png"
+        alt="group"
+        class="order-1 md:order-2"
+      />
+    </section>
+
+    <!--Third Section End-->
+
+    <!--Fourth Section Start-->
+
+    <section class="mx-10 sm:mx-28 pt-32 relative">
+      <div
+        class="w-[1px] h-full bg-slate-300 absolute top-0 left-[-1rem] md:left-[50%]"
+      ></div>
+      <div
+        class="gap-10 md:gap-0 grid grid-cols-1 md:grid-cols-2 place-items-center relative"
+      >
+        <div
+          class="w-5 h-5 bg-step-green-color rounded-[50%] absolute top-0 hidden md:block"
+        ></div>
+        <div
+          class="w-5 h-5 bg-step-green-color rounded-[50%] absolute top-0 block md:hidden left-[-25px]"
+        ></div>
+        <img src="./Images/Right.png" alt="group" class="md:pr-3" />
+        <div class="md:pl-10">
+          <p class="text-sm text-light-pmr-color">About us</p>
+          <h3
+            class="text-[36px] font-semibold text-dark-blue-color mt-2 sm:mt-3"
+          >
+            Our Vision
+          </h3>
+          <p class="text-lg mt-5 sm:mt-9">
+            To have a globally recognised strategic bridge between education and
+            the job market
+          </p>
+          <button
+            type="button"
+            class="font-bold text-pmr-color border border-pmr-color px-5 py-2 hover:bg-pmr-color transition-colors hover:text-white rounded-full mt-10 sm:mt-20"
+          >
+            Contact us
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!--Fourth Section End-->
+
+    <!--Fifth Section Start-->
+
+    <section
+      class="mx-10 sm:mx-28 pt-32 grid grid-cols-1 sm:grid-cols-2 lmd:grid-cols-3 gap-10 lmd:gap-20 relative"
+    >
+      <div
+        class="w-[1px] h-1/6 bg-slate-300 absolute top-0 left-[-1rem] md:left-[50%]"
+      ></div>
+      <div
+        class="w-5 h-5 bg-step-green-color rounded-[50%] absolute top-[16.666667%] left-[48.5%] lg:left-[49.2%] hidden md:block"
+      ></div>
+      <div
+        class="w-5 h-5 bg-step-green-color rounded-[50%] absolute top-[16.666667%] block md:hidden left-[-25px]"
+      ></div>
+      <div class="flex flex-col gap-4">
+        <div>
+          <img src="./Images/Group (1).png" alt="icon" />
+        </div>
+        <h4 class="font-bold text-2xl">Discover</h4>
+        <p class="text-sm font-medium text-light-purple-color">
+          We uncover students unique skills to stand out in a crowded job market
+        </p>
+      </div>
+      <div class="flex flex-col gap-4">
+        <div>
+          <img src="./Images/Group (2).png" alt="icon" />
+        </div>
+        <h4 class="font-bold text-2xl">Interact</h4>
+        <p class="text-sm font-medium text-light-purple-color">
+          We open doors to new opportunities by expanding your transferrable
+          skills
+        </p>
+      </div>
+      <div class="flex flex-col gap-4 col-span-1 sm:col-span-2 lmd:col-span-1">
+        <div>
+          <img src="./Images/Group (3).png" alt="icon" />
+        </div>
+        <h4 class="font-bold text-2xl">Engage</h4>
+        <p class="text-sm font-medium text-light-purple-color">
+          To forester a skill focussed environment that enable students to
+          navigate their ideal career
+        </p>
+      </div>
+    </section>
+
+    <!--Fifth Section End-->
+
+    <!--Sixth Section Start-->
+
+    <section class="px-10 sm:px-28 py-24">
+      <div class="md:flex md:gap-3 text-center md:text-start">
+        <h1 class="text-[25px] xs:text-[40px] font-semibold">
+          The Creative Team<br />
+          behind <span class="text-pmr-color">the door</span>
+        </h1>
+        <img
+          src="./Images/Group-vector.png"
+          alt="vector-arrow"
+          class="mt-16 hidden md:block"
+        />
+      </div>
+      <div class="mt-8 lg:mt-0 lg:relative">
+        <div class="lg:flex justify-end hidden">
+          <img src="./Images/Group 47270.png" alt="group-dot" />
+        </div>
+        <div
+          class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 lg:absolute lg:top-[15%] llg:top-[20%] bg-white w-full lg:w-[96%]"
+        >
+          <div class="flex flex-col gap-3 items-center p-3 text-center">
+            <div>
+              <img src="./Images/image 3.png" alt="team-member" />
+            </div>
+            <h4 class="font-bold text-2xl">Ekta Mahajan</h4>
+            <p class="text-sm">Founder & C.E.O</p>
+            <div class="flex gap-2 items-center">
+              <img
+                src="./Images/Path.png"
+                alt="phone"
+                class="w-4 h-4 cursor-pointer"
+              />
+              <img
+                src="./Images/Icon-1.svg"
+                alt="email"
+                class="w-8 h-8 cursor-pointer"
+              />
+              <img
+                src="./Images/Vector (1).png"
+                alt="linkedin"
+                class="w-4 h-4 cursor-pointer"
+              />
+            </div>
+          </div>
+          <div class="flex flex-col gap-3 items-center p-3 text-center">
+            <div>
+              <img src="./Images/image 4.png" alt="team-member" />
+            </div>
+            <h4 class="font-bold text-2xl">Toby Potter-Drake</h4>
+            <p class="text-sm">Product Manager Associate</p>
+            <div class="flex gap-2 items-center">
+              <img
+                src="./Images/Path.png"
+                alt="phone"
+                class="w-4 h-4 cursor-pointer"
+              />
+              <img
+                src="./Images/Icon-1.svg"
+                alt="email"
+                class="w-8 h-8 cursor-pointer"
+              />
+              <img
+                src="./Images/Vector (1).png"
+                alt="linkedin"
+                class="w-4 h-4 cursor-pointer"
+              />
+            </div>
+          </div>
+          <div class="flex flex-col gap-3 items-center p-3 text-center">
+            <div>
+              <img src="./Images/image 2.png" alt="team-member" />
+            </div>
+            <h4 class="font-bold text-2xl">Ross Davies</h4>
+            <p class="text-sm">Corporate Growth Associate</p>
+            <div class="flex gap-2 items-center">
+              <img
+                src="./Images/Path.png"
+                alt="phone"
+                class="w-4 h-4 cursor-pointer"
+              />
+              <img
+                src="./Images/Icon-1.svg"
+                alt="email"
+                class="w-8 h-8 cursor-pointer"
+              />
+              <img
+                src="./Images/Vector (1).png"
+                alt="linkedin"
+                class="w-4 h-4 cursor-pointer"
+              />
+            </div>
+          </div>
+          <div class="flex flex-col gap-3 items-center p-3 text-center">
+            <div>
+              <img src="./Images/image 1.png" alt="team-member" />
+            </div>
+            <h4 class="font-bold text-2xl">Leo crozier</h4>
+            <p class="text-sm">Software Developer</p>
+            <div class="flex gap-2 items-center">
+              <img
+                src="./Images/Path.png"
+                alt="phone"
+                class="w-4 h-4 cursor-pointer"
+              />
+              <img
+                src="./Images/Icon-1.svg"
+                alt="email"
+                class="w-8 h-8 cursor-pointer"
+              />
+              <img
+                src="./Images/Vector (1).png"
+                alt="linkedin"
+                class="w-4 h-4 cursor-pointer"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="mt-10 hidden lg:block">
+          <img src="./Images/Group 47270.png" alt="group-dot" />
+        </div>
+      </div>
+    </section>
+
+    <!--Sixth Section End-->
+
+    <!--Footer Start-->
+
+    <footer class="bg-white dark:bg-dark-color">
+      <div class="p-10 flex justify-center items-center">
+        <div
+          class="grid grid-cols-1 lxs:grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-9"
+        >
+          <div>
+            <img src="./Images/logo.png" alt="Logo" />
+            <address class="text-footer-color font-light mt-3">
+              Level39<br />
+              One Canada Square,<br />
+              Canary Wharf,<br />
+              London,<br />
+              E14 5AB
+            </address>
+          </div>
+          <div class="flex flex-col gap-4">
+            <h4 class="text-lg text-footer-color font-bold">Home</h4>
+            <a
+              href="#"
+              class="text-footer-color hover:text-pmr-color transition-colors"
+              >Collaborations</a
+            >
+            <a
+              href="#"
+              class="text-footer-color hover:text-pmr-color transition-colors"
+              >Statistics</a
+            >
+            <a
+              href="#"
+              class="text-footer-color hover:text-pmr-color transition-colors"
+              >How It Works</a
+            >
+            <a
+              href="#"
+              class="text-footer-color hover:text-pmr-color transition-colors"
+              >Testimonials</a
+            >
+          </div>
+          <div class="flex flex-col gap-4">
+            <h4 class="text-lg text-footer-color font-bold">About Us</h4>
+            <a
+              href="#"
+              class="text-footer-color hover:text-pmr-color transition-colors"
+              >Who We Are</a
+            >
+            <a
+              href="#"
+              class="text-footer-color hover:text-pmr-color transition-colors"
+              >Mission statement</a
+            >
+            <a
+              href="#"
+              class="text-footer-color hover:text-pmr-color transition-colors"
+              >Our Vision</a
+            >
+            <a
+              href="#"
+              class="text-footer-color hover:text-pmr-color transition-colors"
+              >The Team</a
+            >
+          </div>
+          <div class="flex flex-col gap-4">
+            <h4 class="text-lg text-footer-color font-bold">Upskill</h4>
+            <a
+              href="#"
+              class="text-footer-color hover:text-pmr-color transition-colors"
+              >It Support</a
+            >
+            <a
+              href="#"
+              class="text-footer-color hover:text-pmr-color transition-colors"
+              >Project Management</a
+            >
+            <a
+              href="#"
+              class="text-footer-color hover:text-pmr-color transition-colors"
+              >Data Analysts</a
+            >
+            <a
+              href="#"
+              class="text-footer-color hover:text-pmr-color transition-colors"
+              >Ux Design</a
+            >
+          </div>
+          <div class="flex flex-col gap-4">
+            <h4 class="text-lg text-footer-color font-bold">Contact Us</h4>
+            <a
+              href="#"
+              class="text-footer-color hover:text-pmr-color transition-colors"
+              >Your message</a
+            >
+            <a
+              href="#"
+              class="text-footer-color hover:text-pmr-color transition-colors"
+              >Email</a
+            >
+            <a
+              href="#"
+              class="text-footer-color hover:text-pmr-color transition-colors"
+              >Phone number</a
+            >
+            <a
+              href="#"
+              class="text-footer-color hover:text-pmr-color transition-colors"
+              >Linkedin</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="border-t border-slate-300 p-4 text-center">
+        <p class="text-sm text-footer-color">
+          Copyright 2022 Creatives For You LTD
+        </p>
+      </div>
+    </footer>
+
+    <!--Footer End-->
+
+    <script>
+      const smallNavbar = document.getElementById("smNav");
+      const smallNavbarToggler = document.getElementById("smNavToggBtn");
+
+      const onResizeSmallNavbarToggler = () => {
+        if (
+          window.innerWidth > 815 &&
+          !smallNavbar.classList.contains("hidden")
+        ) {
+          smallNavbar.classList.add("hidden");
+        } else {
+          return;
+        }
+      };
+
+      window.addEventListener("load", () => {
+        window.addEventListener("resize", onResizeSmallNavbarToggler);
+      });
+
+      smallNavbarToggler.addEventListener("click", () => {
+        smallNavbar.classList.toggle("hidden");
+      });
+    </script>
+  </body>
+</html>
